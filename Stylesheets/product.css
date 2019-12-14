@@ -1,0 +1,332 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Hurtmold';
+  src: url(Hurtmold-G5mA-kopia.otf);
+}
+
+body {margin:0 ;font-family:Arial}
+
+
+.product_container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product_image_pic {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+.product_info {
+    width: 90%;
+    padding: 20px 0px;
+}
+
+.product_name {
+    font: 40px 'Hurtmold';
+    margin-bottom: 10px;
+}
+
+.product_price {
+    font: 50px 'Hurtmold';
+}
+
+.colour_options {
+    height: 80px;
+}
+
+.add_to_basket_button {
+    font: 30px 'Hurtmold';
+    background-color: #1C1C1C;
+    width: 80%;
+    height: 40px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.free_shipping_section {
+}
+
+
+
+.specifications {
+    font: 40px 'Hurtmold';
+    background-color: #1C1C1C;
+    width: 70%;
+    height: 60px;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 50px 0px;
+    vertical-align: middle;
+}
+
+.specifications_container {
+    height: auto;
+    background-color: #1C1C1C;
+    margin-bottom: 50px;
+}
+
+.pair {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+
+.blue {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: auto;
+}
+
+.spec_icon {
+    color: white;
+    font-size: 50px;
+    width: 50%;
+}
+
+.desc {
+    font: 17px 'Hurtmold';
+    color: white;
+    width: 60%;
+    position: absolute;
+    left: 30%;;
+}
+
+.get_the_app {
+    height: auto;
+}
+
+.app_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.app_description {
+    width: 85%;
+    margin: auto;
+}
+
+.use_mobile_app {
+    font: 31px 'Hurtmold';
+    margin-bottom: 30px;
+}
+
+.app_paragraph {
+    font: 17px 'Hurtmold';
+}
+
+.phone_image {
+    width: 80%;
+    margin: auto;
+}
+
+.more_details {
+    height: auto;
+    margin: 50px auto;
+}
+
+.more_details_desc {
+    font: 20px 'Hurtmold';
+    width: 85%;
+    background-color: #313131;
+    color: white;
+    height: auto;
+    padding: 40px;
+    line-height: 1.2;
+    margin: auto;
+}
+
+
+
+@media (min-width: 990px) {
+.product_container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding: 100px 100px 20px 150px;
+    margin: 0 0;
+}
+
+.slide_container {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product_info {
+    width: 40%;
+    padding: 40px 0px;
+}
+
+.product_name {
+    font: 40px 'Hurtmold';
+    margin-bottom: 40px;
+}
+
+.product_price {
+    font: 50px 'Hurtmold';
+}
+
+.colour_options {
+    height: 100px;
+}
+
+.add_to_basket_button {
+    font: 30px 'Hurtmold';
+    background-color: #1C1C1C;
+    width: 40%;
+    height: 40px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.free_shipping_section {
+    font: 20px 'Hurtmold';
+    background-color: #1C1C1C;
+    width: 95%;
+    height: 70px;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.specifications {
+    font: 50px 'Hurtmold';
+    background-color: #1C1C1C;
+    width: 40%;
+    height: 80px;
+    color: white;
+    padding: 10px 0px;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.specifications_container {
+    height: 500px;
+    background-color: #1C1C1C;
+}
+
+.pair {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 80px;
+}
+
+
+.blue {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 0;
+    height: auto;
+}
+
+.spec_icon {
+    color: white;
+    font-size: 60px;
+    width: auto;
+}
+.desc {
+    font: 22px 'Hurtmold';
+    color: white;
+    width: 70%;
+    position: relative;
+}
+
+
+
+.get_the_app {
+    height: 700px;
+}
+
+.app_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.app_description {
+    width: 40%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.use_mobile_app {
+    font: 50px 'Hurtmold';
+    margin-bottom: 30px;
+}
+
+.app_paragraph {
+    font: 25px 'Hurtmold';
+}
+
+.phone_image {
+    width: 70%;
+    padding-right: 20px;
+}
+
+.more_details {
+    height: 600px;
+    margin: 50px 0;
+}
+
+.more_details_desc {
+    font: 25px 'Hurtmold';
+    width: 40%;
+    margin-left: 40%;
+    background-color: #313131;
+    color: white;
+    height: 450px;
+    padding: 40px;
+    line-height: 1.2;
+}
+
+}
+
+
+
+
+
+
+
+

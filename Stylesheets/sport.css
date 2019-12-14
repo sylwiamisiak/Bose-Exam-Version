@@ -1,0 +1,298 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+body {margin:0 ;font-family:Arial}
+
+
+
+.first_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro_text {
+    color: black;
+    width: 80%;
+    text-align: left;
+    font-size: 50px;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+.headphones_main_pic {
+    width: 80%;
+    margin: auto;
+}
+
+.second_text {
+    background-color: black;
+    width: 80%;
+    height: 50%;
+    opacity: 65%;
+    left: 10%;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    line-height: 1.5;
+    font: 45px 'Hurtmold';
+    text-align: center;
+}
+
+.third_text {
+    background-color: #1C1C1C;
+    width: 80%;
+    height: 50%;
+    left: 10%;
+    margin-top: 30px;
+    padding: 20px;
+    color: white;
+    line-height: 1.5;
+    font: 40px 'Hurtmold';
+    text-align: center;
+}
+
+.checkout {
+    height: auto;
+}
+
+.checkout_title {
+    background-color: #1C1C1C;
+    width: 100%;
+    left: 10%;
+    margin: 50px 0;
+    padding: 20px;
+    color: white;
+    line-height: 1.5;
+    font: 15px 'Hurtmold';
+    text-align: center;
+}
+
+.david_pic {
+    display: none;
+}
+
+.products_examples_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10%;
+    height: auto;
+    }
+
+  .product_example {
+    width: 90%;
+    margin-bottom: 70px;
+    }
+
+ .product_mini_pic {
+        width: 100%;
+    }
+
+   .title_of_product {
+        font-size: 25px;
+        background-color: #1C1C1C;
+        color: white;
+        padding: 10px;
+    }
+
+    .price_of_product {
+        font-size: 40px;
+    }
+
+    .product_mini_description {
+        font-size: 20px;
+    }
+
+    .details_button {
+        font-size: 30px;
+        background-color: #1C1C1C;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .add_to_basket_button {
+     font-size: 30px;
+        background-color: #1C1C1C;
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+
+.social_media_icons a:link {
+        color: white;
+    }
+
+.social_media_icons a:visited {
+        color: grey;
+    }
+
+
+
+@media (min-width: 990px) {
+
+.first_section {
+    margin-top: 50px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.intro_text {
+    color: black;
+    width: 30%;
+    text-align: left;
+    font-size: 75px;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.headphones_main_pic {
+    width: 30%;
+    height: auto;
+    margin-right: 15%;
+}
+
+
+.second_section {
+    height: 600px;
+    background-image: url(../Sport_page/section_two_resized.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.second_text {
+    background-color: black;
+    width: 30%;
+    height: 50%;
+    opacity: 65%;
+    position: absolute;
+    left: 10%;
+    margin-top: 80px;
+    padding: 50px;
+    color: white;
+    line-height: 1.5;
+    font: 70px 'Hurtmold'
+}
+
+.third_section {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 0 70px;
+    }
+
+
+.david_pic {
+    display: block;
+    width: 50%;
+    height: auto;
+    }
+
+.third_text {
+    background: none;
+    font: 80px 'Hurtmold';
+    width: 40%;
+    color: black;
+    text-align: left;
+    padding: 0px 0px;
+    margin: 0;
+    }
+
+.checkout {
+    margin-top: 50px;
+    height: 1000px;
+    }
+
+.products_examples_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    margin: 0 10%;
+    }
+
+.checkout_title {
+    width: 80%;
+    margin: auto;
+    text-align: center;;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #1C1C1C;
+    font: 35px 'Hurtmold';
+    color: white;
+    }
+
+.product_example {
+    max-width: 300px;
+    text-decoration: none;
+    }
+
+.product_example a:link {
+    text-decoration: none;
+    }
+
+.product_example a:visited {
+        color: grey;
+        text-decoration: none;
+    }
+
+.product_mini_pic {
+    width: 90%;
+    }
+
+.title_of_product {
+    font-size: 25px;
+    background-color: #1C1C1C;
+    color: white;
+    padding: 10px;
+    }
+
+.price_of_product {
+    font-size: 40px;
+    }
+
+.product_mini_description {
+    font-size: 20px;
+    }
+
+.details_button {
+    font-size: 30px;
+    background-color: #1C1C1C;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    }
+
+
+.add_to_basket_button {
+     font-size: 30px;
+     background-color: #1C1C1C;
+     color: white;
+      padding: 10px;
+      text-align: center;
+    }
+}
+
