@@ -41,10 +41,12 @@ body {margin:0 ;font-family:Arial}
 
 .website_title {
     margin-top: 100px;
+    margin-bottom: 100px;
     font: 25px 'Hurtmold';
     width: 80%;
     margin-left: 10%;
     margin-bottom: 5%;
+    margin-bottom: 50px;
 }
 
 
@@ -59,6 +61,7 @@ body {margin:0 ;font-family:Arial}
     margin: 0 20px;
     opacity: 70%;
     padding: 30px;
+    margin-bottom: 50px;
 }
 
 .intro_text {
@@ -69,7 +72,7 @@ body {margin:0 ;font-family:Arial}
 }
 
 .search_by_purpose {
-    height: 500px;
+    height: auto;
 }
 
 .title_purpose_section {
@@ -78,12 +81,12 @@ body {margin:0 ;font-family:Arial}
     margin-left: 5%;
     margin-bottom: 5%;
     text-align: center;
+    margin-top: 100px;
 }
 
 .category_container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
     margin: auto;
@@ -111,7 +114,7 @@ body {margin:0 ;font-family:Arial}
 
 .searchby_type_container {
     height: auto;
-    margin-top: 80%;
+    margin-top: 50px;
     background-color: #1C1C1C;
     padding-bottom: 50px;
     }
@@ -137,14 +140,14 @@ body {margin:0 ;font-family:Arial}
         justify-content: space-between;
     }
 
-    .kind_pic {
+.kind_pic {
         width: 40%;
         margin: auto;
         margin-bottom: 50px;
     }
 
 .about_bose_container {
-    background-image: url(main_page_material/resized.jpg);
+    background-image: url(main_page_material/Mobile_traveling_girl.jpg);
     height: 600px;
     background-size: cover;
     background-attachment: fixed;
@@ -164,9 +167,6 @@ body {margin:0 ;font-family:Arial}
     font: 40px 'Hurtmold'
     }
 
-.read_more {
-  display: none;
-    }
 
 .short_note_double {
     width: 80%;
@@ -279,7 +279,6 @@ h3 {
     flex-direction: row;
     font-size: 35px;
     justify-content: space-around;
-    padding: 0 20%;
     color: white;
     text-decoration: none;
     }

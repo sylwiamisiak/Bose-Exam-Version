@@ -15,11 +15,6 @@ body {
     overflow-x: hidden;
 }
 
-@font-face {
-  font-family: 'Hurtmold';
-  src: url(Hurtmold-G5mA-kopia.otf);
-}
-
 body {margin:0 ;font-family:Arial}
 
 
@@ -67,10 +62,6 @@ body {margin:0 ;font-family:Arial}
     text-align: center;
     margin-bottom: 20px;
 }
-
-.free_shipping_section {
-}
-
 
 
 .specifications {
@@ -177,15 +168,6 @@ body {margin:0 ;font-family:Arial}
     align-content: center;
     padding: 100px 100px 20px 150px;
     margin: 0 0;
-}
-
-.slide_container {
-    width: 500px;
-    height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    text-align: center;
 }
 
 .product_info {
@@ -320,7 +302,6 @@ body {margin:0 ;font-family:Arial}
     padding: 40px;
     line-height: 1.2;
 }
-
 }
 
 
