@@ -10,13 +10,13 @@
 body {
     font-family: sans-serif;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
     overflow-x: hidden;
 }
 
-
-body {margin:0 ;font-family:Arial}
+@font-face {
+  font-family: 'Hurtmold';
+  src: url(../Hurtmold-G5mA-kopia.otf);
+}
 
 .first_section {
     display: flex;
@@ -24,11 +24,26 @@ body {margin:0 ;font-family:Arial}
     margin-bottom: 50px;
 }
 
+.web_logo {
+    height: 50px;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.shopping_cart {
+    color: #fff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
 .intro_text {
-    color: black;
+    font: 25px 'Hurtmold';
     width: 80%;
     text-align: left;
-    font-size: 50px;
     margin-top: 25%;
     margin-left: 10%;
 }
@@ -111,15 +126,15 @@ body {margin:0 ;font-family:Arial}
         padding: 10px;
     }
 
-    .price_of_product {
+.price_of_product {
         font-size: 40px;
     }
 
-    .product_mini_description {
+.product_mini_description {
         font-size: 20px;
     }
 
-    .details_button {
+.details_button {
         font-size: 30px;
         background-color: #1C1C1C;
         color: white;
@@ -148,9 +163,142 @@ a {
     text-decoration: none;
 }
 
+.newsletter_container {
+    padding: 40px 40px;
+    text-align: center;
+    }
 
+.jon {
+    font: 30px 'Hurtmold';
+    background-color: #1C1C1C;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    }
+
+.tiny_paragraph {
+    max-width: 600px;
+    margin: 30px auto;
+    font-size: 15px;
+    }
+
+.email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    }
+
+.letter {
+    display: block;
+    background: #1C1C1C;
+    width: 40px;
+    line-height: 40px;
+    color: white;
+}
+
+.email box i {
+    background: #1C1C1C;
+    width: 40px;
+    line-height: 40px;
+    }
+
+.tbox, .btn {
+    border: 1px;
+    outline: 3px;
+    }
+
+.tbox {
+    width: 0px;
+    transition: 0.6s;
+    }
+
+    .email-box:hover > .tbox,.tbox:focus{
+        width: 260px;
+        padding: 0 10px;
+    }
+
+.btn {
+    background: #1C1C1C;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    }
+
+.free_banner_container {
+    width: 100%;
+    text-align: center;
+    background-color: #1C1C1C;
+    font: 10px 'Hurtmold';
+    color: white;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+ .footer {
+    background-color: #1C1C1C;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    padding: 50px 80px;
+    margin: auto;
+    }
+
+h3 {
+    font: 30px 'Hurtmold';
+    margin-bottom: 10px;
+    }
+
+.footer_info {
+    font-size: 17px;
+    }
+
+.social_media_icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+    }
+
+.social_media_icons a:link {
+        color: white;
+    }
+
+.social_media_icons a:visited {
+        color: grey;
+    }
 
 @media (min-width: 990px) {
+
+.web_logo {
+    height: 50px;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.shopping_cart {
+    color: #fff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.website_title {
+    margin-top: 100px;
+    font: 35px 'Hurtmold';
+    width: 45%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
 
 .first_section {
     margin-top: 50px;
@@ -211,7 +359,7 @@ a {
 .david_pic {
     display: block;
     width: 50%;
-    height: auto;
+
     }
 
 .third_text {
@@ -300,5 +448,109 @@ a {
       padding: 10px;
       text-align: center;
     }
+
+.newsletter_container {
+    padding: 80px 40px;
+    text-align: center;
+    }
+
+.jon {
+    font: 50px 'Hurtmold';
+    background-color: #1C1C1C;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    }
+
+.tiny_paragraph {
+    max-width: 600px;
+    margin: 40px auto;
+    font-size: 20px;
+    }
+
+.email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    }
+
+.email box i {
+    background: #1C1C1C;
+    width: 40px;
+    line-height: 40px;
+    }
+
+.tbox, .btn {
+    border: 1px;
+    outline: 3px;
+    }
+
+.tbox {
+    width: 0px;
+    transition: 0.6s;
+    }
+
+.email-box:hover > .tbox,.tbox:focus{
+        width: 260px;
+        padding: 0 10px;
+        border: 1px;
+        border-color: aqua;
+    }
+
+.btn {
+    background: #1C1C1C;
+    color: white;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    }
+
+ .footer {
+    background-color: #151515;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    padding: 100px 150px;
+    }
+
+h3 {
+    font: 30px 'Hurtmold';
+    margin-bottom: 20px;
+    }
+
+.footer_info {
+    font-size: 17px;
+    }
+
+.social_media_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 0 0;
+    color: white;
+    }
+
+.free_banner_container {
+        width: 100%;
+        text-align: center;
+        background-color: #151515;
+        font: 22px 'Hurtmold';
+        color: white;
+        padding: 4% 15%;
+        line-height: 1.5;
+    }
+
+.social_media_icons a:link {
+        color: white;
+    }
+
+.social_media_icons a:visited {
+        color: grey;
+    }
+
 }
 

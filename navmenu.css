@@ -18,7 +18,7 @@ header {
     top: 0;
     left: 0;
     padding: 0 100px;
-    background: #1C1C1C;
+    background: #151515;
     width: 100%;
     box-sizing: border-box;
 }
@@ -123,6 +123,7 @@ header nav ul li a.active {
         top: 50px;
         left: -100%;
         transition: 0.5s;
+        z-index: 99;
     }
 
     header nav.active {
