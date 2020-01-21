@@ -34,6 +34,19 @@ body {
     margin-right: 15px;
 }
 
+.input_searchfield {
+    float: right;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.form_container {
+    float: right;
+    margin-right: 20px;
+}
+
 .product_container {
     margin-top: 50px;
     display: flex;
@@ -303,6 +316,19 @@ h3 {
     font-size: 24px;
     cursor: pointer;
     margin-right: 15px;
+}
+
+.input_searchfield {
+    float: right;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.form_container {
+    float: right;
+    margin-right: 20px;
 }
 
 .product_container {

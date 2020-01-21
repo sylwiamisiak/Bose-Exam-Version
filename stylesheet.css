@@ -39,6 +39,19 @@ body {margin:0 ;font-family:Arial}
     margin-right: 15px;
 }
 
+.input_searchfield {
+    float: right;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.form_container {
+    float: right;
+    margin-right: 20px;
+}
+
 .landing_container {
     height: 500px;
     background-color: #151515;
@@ -189,7 +202,7 @@ label span:hover{
     margin-top: 50px;
     background-color: #1C1C1C;
     padding-bottom: 50px;
-    }
+}
 
 .title_kind_section {
     font: 25px 'Hurtmold';
@@ -381,6 +394,19 @@ h3 {
     font-size: 24px;
     cursor: pointer;
     margin-right: 15px;
+}
+
+.input_searchfield {
+    float: right;
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.form_container {
+    float: right;
+    margin-right: 20px;
 }
 
 .website_title {
