@@ -356,8 +356,58 @@ h3 {
 }
 
 .colour_options {
-    height: 100px;
+    margin: 20px 0;
+    padding: 5px 0;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.black_color {
+        background-color: black;
+        padding: 15px;
+        color: transparent;
+    cursor: pointer;
+    }
+
+ .black_color:hover {
+        outline: grey 3px solid;
+    }
+
+.green_color {
+        background-color: darkgreen;
+        padding: 15px;
+        color: transparent;
+    cursor: pointer;
+    }
+
+ .green_color:hover {
+        outline: grey 3px solid;
+    }
+
+.darkred_color {
+        background-color: darkred;
+        padding: 15px;
+        color: transparent;
+    cursor: pointer;
+    }
+
+ .green_color:hover {
+        outline: grey 3px solid;
+    }
+
+.yellow_color {
+        background-color: yellow;
+        padding: 15px;
+        color: transparent;
+    cursor: pointer;
+    }
+
+ .green_color:hover {
+        outline: grey 3px solid;
+    }
 
 .add_to_basket_button {
     font: 30px 'Hurtmold';
