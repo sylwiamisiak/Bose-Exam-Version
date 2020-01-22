@@ -441,6 +441,7 @@ h3 {
 
 .product_mini_pic {
     width: 90%;
+    cursor: pointer;
     }
 
 .title_of_product {
@@ -448,11 +449,12 @@ h3 {
     background-color: #1C1C1C;
     color: white;
     padding: 10px;
-    outline: grey solid 2px;
+    outline: transparent solid 2px;
+    cursor: pointer;
     }
 
     .title_of_product:hover {
-    outline: grey solid 5px;
+    outline: grey solid 3px;
     }
 
 .price_of_product {
@@ -471,11 +473,12 @@ h3 {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    outline: grey solid 2px;
+    outline: transparent solid 2px;
+    cursor: pointer;
     }
 
     .details_button:hover {
-    outline: grey solid 5px;
+    outline: grey solid 3px;
     }
 
 
@@ -485,11 +488,12 @@ h3 {
      color: white;
       padding: 10px;
       text-align: center;
-    outline: grey solid 2px;
+    outline: transparent solid 2px;
+    cursor: pointer;
     }
 
 .add_to_basket_button:hover {
-    outline: grey solid 5px;
+    outline: grey solid 3px;
     }
 
 
