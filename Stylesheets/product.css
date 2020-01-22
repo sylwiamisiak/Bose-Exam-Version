@@ -78,8 +78,41 @@ body {
 }
 
 .colour_options {
-    height: 80px;
+    margin: 20px 0;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+.black_color {
+        background-color: black;
+        padding: 15px;
+        color: transparent;
+    cursor: pointer;
+    }
+
+.green_color {
+        background-color: darkgreen;
+        padding: 15px;
+        color: transparent;
+    cursor: pointer;
+    }
+
+.darkred_color {
+        background-color: darkred;
+        padding: 15px;
+        color: transparent;
+    cursor: pointer;
+    }
+
+.yellow_color {
+        background-color: yellow;
+        padding: 15px;
+        color: transparent;
+    cursor: pointer;
+    }
 
 .add_to_basket_button {
     font: 30px 'Hurtmold';
@@ -394,7 +427,7 @@ h3 {
     cursor: pointer;
     }
 
- .green_color:hover {
+ .darkred_color:hover {
         outline: grey 3px solid;
     }
 
@@ -405,7 +438,7 @@ h3 {
     cursor: pointer;
     }
 
- .green_color:hover {
+ .yellow_color:hover {
         outline: grey 3px solid;
     }
 
